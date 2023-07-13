@@ -52,7 +52,7 @@ resource "abbey_grant_kit" "null_grant" {
         reviewers = {
           # Typically uses your Primary Identity.
           # For this local example, you can pass in an arbitrary string.
-          # For more information on what a Primary Identity is, visit https://docs.abbey.io.
+          #  For more information on what a Primary Identity is, visit https://docs.abbey.io.
           one_of = ["kdamaroli@gmail.com"]
         }
       }
