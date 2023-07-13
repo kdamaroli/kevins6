@@ -58,7 +58,7 @@ resource "abbey_grant_kit" "null_grant" {
       }
     ]
   }
-
+  policies = [] 
   output = {
     # Replace with your own path pointing to where you want your access changes to manifest.
     # Path is an RFC 3986 URI, such as `github://{organization}/{repo}/path/to/file.tf`.
