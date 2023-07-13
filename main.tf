@@ -39,7 +39,7 @@ provider "random" {
 }
 
 resource "abbey_grant_kit" "null_grant" {
-  name = "null_grant"
+  name = "kevins_grant"
   description = <<-EOT
     Grants access to a Null Resource.
     This Grant Kit uses a single-step Grant Workflow that requires only a single reviewer
